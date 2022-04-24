@@ -1,0 +1,22 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "Project for storing Postman Pizza tests",
+  "main": "index.js",
+  "scripts": {
+    "api-tests-production": "newman run testing/pizza.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanelsss/testing.git"
+  },
+  "author": "Sanel Omanovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanelsss/testing/issues"
+  },
+  "homepage": "https://github.com/Sanelsss/testing#readme",
+  "dependencies": {
+    "newman": "^5.3.2"
+  }
+}
