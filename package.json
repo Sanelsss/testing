@@ -4,7 +4,7 @@
   "description": "Project for storing Postman Pizza tests",
   "main": "index.js",
   "scripts": {
-    "api-tests-production": "newman run testing/pizza.json"
+    "api-tests-production": "newman run tests/pizza.json"
   },
   "repository": {
     "type": "git",
